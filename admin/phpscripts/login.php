@@ -83,10 +83,24 @@ function logIn($username, $password, $ip) {
 
 									//redirect_to("admin_index.php");
 
+
+									//For the last tier where it locks out, My plan was to get the date they sign up from the database, then take the current time -1 minutes (assignged when they sign up so its even)
+									//And run an if statement to where if they equal each other it sets "user_status" to lockout.
+									// See below for date:
+									// if($date === $signupdate){
+									//*here set the databse value to "lockout", and if lockout kill session or lockout acc etc.* }
+
+									//elseif{
+										//set timer to 0 and not let it lock after
+								//}
+
+								//Mix of not working and no time, so I gave you my thought process and basic code will try to add afterwards and push if it can get marked
+
 									//This gives me the current time minus 1 minute
 									$date = date("Y-m-d H:i:s");
 									$time = strtotime($date);
 									$time = $time - (1 * 60);
+									
 									$date = date("Y-m-d H:i:s", $time);
 
 									echo $date;
