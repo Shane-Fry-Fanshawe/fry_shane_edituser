@@ -1,0 +1,140 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html{
+  font-family: 'Roboto', sans-serif;
+}
+
+.test {
+  color: blue;
+}
+
+#edit_user
+{
+  margin: 0 auto;
+  width: 90%;
+}
+
+.user_info {
+  width: 95%;
+  margin-left: 10px;
+  border: 1px solid #00bff3;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+form{
+  /* background-color: #00bff3; */
+  border-radius: 10px;
+  width: 50%;
+  margin-left: 20px;
+  padding-top: 10px;
+  margin: 0 auto;
+  background-color: rgba(0, 191, 243, 0.3);
+  padding-bottom: 20px;
+}
+
+label {
+  margin-top: 3px;
+  margin-left: 10px;
+  font-weight: bold;
+  float: left;
+}
+
+input[value] {
+  color: #00536a;
+}
+
+header {
+  background-color: #00bff3;
+  padding: 20px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#edit_user_title
+{
+  margin-bottom: 20px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.profile_image
+{
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+input[type=submit] {
+    padding:10px 15px;
+    background:#00bff3;
+    color: white;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+}
+
+input[type=submit]:hover {
+    padding:10px 15px;
+    background: #00536a;
+
+}
+
+.edit_icon
+{
+  margin-left: 15px;
+  float: left;
+  padding-bottom: 5px;
+}
